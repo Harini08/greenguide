@@ -38,6 +38,7 @@ img {
   font-size:14px;
   color:white;
   padding-top:25px;
+  display: inline;
 }
 
 .browse-pod a {
@@ -48,6 +49,7 @@ img {
   background-color: #36862D;
   font-size:14px;
   font-color:white;
+  display: inline;
 }
 
 .beauty {
