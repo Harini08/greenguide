@@ -1,4 +1,4 @@
-$('.collapse').collapse('hide');
+// $('.collapse').collapse('hide');
 
 $('#myTab a').click(function (e) {
   e.preventDefault()
@@ -6,5 +6,5 @@ $('#myTab a').click(function (e) {
 })
 
 $(function () {
-    $('#myTab a:last').tab('show')
+    $('#myTab a:first').tab('show')
   })
