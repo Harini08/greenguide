@@ -21,9 +21,50 @@
   <body>
     <!-- The href attribute is used to load external HTML content into your panel -->
 
-    <a href="#whatever" data-slidepanel="panel">Show Panel</a>
+    <a href="#whatever" data-slidepanel="panel">Show SidePanel</a>
 
-    <div id="#whatever" >hello</div>
+    <div class="home-sidebar-pod">Sidebar
+      <div class="container-home-sidebar">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href="food.html">Home</a></li>
+          <li class="list-group-item">
+            <a href="#">Scan</a></li>
+          <li class="list-group-item">
+            <a href="#">Browse</a></li>
+          <li class="list-group-item">
+            <a href="#">My Shopping List</a></li>
+
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  Learn
+                </a>
+              </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <p>> LCA</p>
+                <p>> Good Fish Guide</p>
+              </div>
+            </div>
+          </div>
+
+          <li class="list-group-item">
+            <a href="#">About</a></li>
+          <li class="list-group-item">
+            <a href="#">FAQs</a></li>
+          <li class="list-group-item">
+            <a href="#">Contact Support</a></li>
+          <li class="list-group-item">
+            <a href="#">Feedback</a></li>
+          <li class="list-group-item">
+            <a href="#">Share</a></li>
+        </ul>
+      </div>
+
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 

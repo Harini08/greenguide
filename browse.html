@@ -18,15 +18,23 @@
     <![endif]-->
   </head>
   <body>
-    <h4>Browse Categories</h4>
+    <div class="row">
+      <h4>Browse Categories</h4>
 
-    <div id="slide-panel">
-        <a href="home-sidebar.html" class="btn btn-default btn-sm" id="opener"><i class="glyphicon glyphicon-align-justify"></i></a>
-    </div>
+      <div id="slide-panel">
+        <a href="#" data-slidepanel="panel" class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-align-justify"></span>
+        </a>
+      </div>
 
- <a href="home-sidebar.html" class="btn btn-default btn-sm">
-      <span class="glyphicon glyphicon-list"></span>
-  </a>
+
+
+      <div id="home-icon">
+        <a href="home.html" class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-home"></span>
+        </a>
+      </div>
+  </div>
 
     <div class="browse-pod">
       <div class="container-browse">
@@ -55,6 +63,47 @@
       </div>
     </div>
 
+      <div id="home-sidebar" class="home-sidebar-pod">Sidebar
+
+        <div class="container-home-sidebar">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a href="food.html">Home</a></li>
+            <li class="list-group-item">
+              <a href="#">Scan</a></li>
+            <li class="list-group-item">
+              <a href="#">Browse</a></li>
+            <li class="list-group-item">
+              <a href="#">My Shopping List</a></li>
+
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Learn
+                  </a>
+                </div>
+              <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <p>> LCA</p>
+                  <p>> Good Fish Guide</p>
+                </div>
+              </div>
+            </div>
+
+            <li class="list-group-item">
+              <a href="#">About</a></li>
+            <li class="list-group-item">
+              <a href="#">FAQs</a></li>
+            <li class="list-group-item">
+              <a href="#">Contact Support</a></li>
+            <li class="list-group-item">
+              <a href="#">Feedback</a></li>
+            <li class="list-group-item">
+              <a href="#">Share</a></li>
+          </ul>
+        </div>
+
 
 <!-- goodguide categories: pet food, babies & kids, hair care, makeup, food, skincare, household, bath, soap & shower, oral care -->
 
@@ -64,5 +113,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/home-sidebar.js"></script>
   </body>
 </html>
