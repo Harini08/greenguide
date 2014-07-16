@@ -1,4 +1,4 @@
-/* Slide Panel */
+/* Slide Panel
         .cb_slide_panel {
             background: url(../img/panel_bg_default.jpg) repeat;
             border-right: 1px solid #E0E0E0;
@@ -52,7 +52,7 @@
         .cb_slide_panel a.close:hover {
             background-position: -40px 0;
         }
-        
+
         .cb_slide_panel .inner {
             padding: 20px 0 0 20px;
             width: 248px;

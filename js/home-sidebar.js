@@ -19,4 +19,5 @@
   });
 });
 
+
 //Do display inline for the sidebar panel to move it next to the other panel.

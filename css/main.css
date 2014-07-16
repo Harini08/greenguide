@@ -32,10 +32,14 @@ img {
 }
 
 #home-sidebar {
-    width:300px;
+    width: 0px;
     height:300px;
     padding:0px;
-    margin-left:-0px;
+    margin-left:300px;
 }
 
+.sidebar-container {
+  right: 800px;
+  display: inline-block;
+}
 
