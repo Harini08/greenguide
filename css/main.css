@@ -12,6 +12,10 @@ img {
   padding-top:35px;
 }
 
+.home-sidebar-pod {
+  margin-left: 0;
+}
+
 .home-section-one {
   background-color: #75D18F;
 }
@@ -32,14 +36,14 @@ img {
 }
 
 #home-sidebar {
-    width: 0px;
+    /*width: 0px;*/
     height:300px;
     padding:0px;
-    margin-left:300px;
+    /*margin-left:300px;*/
 }
 
-.sidebar-container {
+/*.sidebar-container {
   right: 800px;
   display: inline-block;
-}
+}*/
 
