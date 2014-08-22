@@ -90,8 +90,13 @@ html, body {
   }
 }
 
-.navmenu-default .navmenu-nav>li>a, .navbar-default .navbar-offcanvas .navmenu-nav>li>a {
-  color: inherit;
+
+.navmenu-default .navmenu-nav>li>a{
+  color: #428bca;
+}
+
+.navmenu-default .navmenu-nav>li>a:hover, .navmenu-default .navmenu-nav>li>a:focus {
+  color: #2a6496;
 }
 
 .nav>li>a {
@@ -100,4 +105,8 @@ html, body {
 
 .navmenu, .navbar-offcanvas {
   width: 250px;
+}
+
+.list-group-item {
+  border-left: none;
 }
