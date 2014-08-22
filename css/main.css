@@ -97,3 +97,7 @@ html, body {
 .nav>li>a {
   padding: 0 0;
 }
+
+.navmenu, .navbar-offcanvas {
+  width: 250px;
+}
