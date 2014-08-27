@@ -110,3 +110,11 @@ html, body {
 .list-group-item {
   border-left: none;
 }
+
+.navbar {
+  text-align: center;
+}
+
+.navmenu-brand {
+  display: inline-block;
+}
