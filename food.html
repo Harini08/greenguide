@@ -8,90 +8,160 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
   </head>
   <body>
-    <h4>Food & Drinks</h4>
+    <div class="navmenu navmenu-default navmenu-fixed-left">
+      <ul class="nav navmenu-nav">
+        <li class="list-group-item">
+        <a href="food.html">Home</a></li>
+        <li class="list-group-item">
+        <a href="#">Scan</a></li>
+        <li class="list-group-item">
+        <a href="#">Browse</a></li>
+        <li class="list-group-item">
+        <a href="#">My Shopping List</a></li>
+        <li class="list-group-item">
+        <a href="#">Learn</a></li>
 
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="input-group">
-          <span class="input-group-btn">
-            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span>
-            </button>
-          </span>
-          <input type="text" class="form-control" placeholder="Search">
-        </div><!-- /input-group -->
-      </div><!-- /.col-lg-6 -->
-    </div><!-- /row -->
-
-      <ul class="list-group">
         <li class="list-group-item">
-          <img src="img_categories/food_and_drink/fruits_vegetables.jpg" alt="app"/>
-          <a href="fruitsandveg.html">Fruits & Vegetables</a>
-        </li>
+        <a href="#">About</a></li>
         <li class="list-group-item">
-          <img src="img_categories/food_and_drink/bakery.jpg" alt="app"/>
-          <a href="bakery.html">Bakery</a>
-        </li>
+        <a href="#">FAQs</a></li>
         <li class="list-group-item">
-          <img src="img_categories/food_and_drink/dairy_eggs.jpg" alt="app"/>
-          <a href="dairyandeggs.html">Dairy & Eggs</a>
-        </li>
+        <a href="#">Contact Support</a></li>
         <li class="list-group-item">
-          <img src="img_categories/food_and_drink/meat_fish_poultry.jpg" alt="app"/>
-          <a href="meat-fish-poultry.html">Meat, Fish & Poultry</a>
-        </li>
+        <a href="#">Feedback</a></li>
         <li class="list-group-item">
-          <img src="img_categories/food_and_drink/frozen_foods.jpg" alt="app"/>
-          <a href="frozen.html">Frozen</a>
-        </li>
-        <li class="list-group-item">
-          <img src="img_categories/food_and_drink/ready_meals.jpg" alt="app"/>
-          <a href="readymeals.html">Ready Meals</a>
-        </li>
-        <li class="list-group-item">
-          <img src="img_categories/food_and_drink/pantry.jpg" alt="app"/>
-          <a href="cereals-rice-pulses-grains.html">Cereals, Rice, Pulses & Grains </a>
-        </li>
-        <li class="list-group-item">
-          <img src="img_categories/food_and_drink/beverages.jpg" alt="app"/>
-          <a href="beverages.html">Beverages</a>
-        </li>
-        <li class="list-group-item">
-          <img src="img_categories/food_and_drink/canned_food.jpg" alt="app"/>
-          <a href="tins-jars-cooking.html">Tins, Jars & Cooking</a>
-        </li>
-        <li class="list-group-item">
-          <img src="img_categories/food_and_drink/baby_food.jpg" alt="app"/>
-          <a href="#">Baby Food & Drink</a>
-        </li>
-        <li class="list-group-item">
-          <img src="img_categories/food_and_drink/snacks_sweets.jpg" alt="app"/>
-          <a href="#">Snacks & Sweets</a>
-        </li>
-        <li class="list-group-item">
-          <img src="img_categories/food_and_drink/international.jpg" alt="app"/>
-          <a href="#">International</a>
-        </li>
-        <li class="list-group-item">
-          <img src="img_categories/food_and_drink/speciality.jpg" alt="app"/>
-          <a href="#">Speciality</a>
-        </li>
+        <a href="#">Share</a></li>
       </ul>
     </div>
 
 
+    <div class="canvas">
+      <div class="navbar navbar-default navbar-fixed-top">
+        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <a class="navmenu-brand" href="#">Food & Drinks</a>
+
+        <a href="home.html" class="navbar-toggle pull-right">
+          <span class="glyphicon glyphicon-home"></span>
+        </a>
+      </div>
+
+      <div class="row" style="margin-top: 15px;">
+        <div class="col-xs-1 col-sm-1">
+          <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span>
+          </button>
+        </div>
+        <div class="col-xs-11 col-sm-11">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <ul class="list-group">
+
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/fruits_vegetables.jpg" alt="app"/>
+            <a href="fruitsandveg.html">Fruits & Vegetables</a>
+            </li>
+
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/bakery.jpg" alt="app"/>
+            <a href="#">Bakery</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/dairy_eggs.jpg" alt="app"/>
+            <a href="dairyandeggs.html">Dairy & Eggs</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/meat_fish_poultry.jpg" alt="app"/>
+            <a href="meat-fish-poultry.html">Meat, Fish & Poultry</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/frozen_foods.jpg" alt="app"/>
+            <a href="frozen.html">Frozen</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/ready_meals.jpg" alt="app"/>
+            <a href="readymeals.html">Ready Meals</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/pantry.jpg" alt="app"/>
+            <a href="cereals-rice-pulses-grains.html">Cereals, Rice, Pulses & Grains </a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/beverages.jpg" alt="app"/>
+            <a href="beverages.html">Beverages</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/canned_food.jpg" alt="app"/>
+            <a href="tins-jars-cooking.html">Tins, Jars & Cooking</a>
+            </li>
+
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/frozen_foods.jpg" alt="app"/>
+            <a href="#">Frozen</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/ready_meals.jpg" alt="app"/>
+            <a href="#">Ready Meals</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/pantry.jpg" alt="app"/>
+            <a href="#">Pantry</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/beverages.jpg" alt="app"/>
+            <a href="#">Beverages</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/canned_food.jpg" alt="app"/>
+            <a href="#">Canned Food</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/baby_food.jpg" alt="app"/>
+            <a href="#">Baby Food & Drink</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/snacks_sweets.jpg" alt="app"/>
+            <a href="#">Snacks & Sweets</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/international.jpg" alt="app"/>
+            <a href="#">International</a>
+            </li>
+            <li class="list-group-item">
+            <img src="img_categories/food_and_drink/speciality.jpg" alt="app"/>
+            <a href="#">Speciality</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <!-- goodguide categories: pet food, babies & kids, hair care, makeup, food, skincare, household, bath, soap & shower, oral care -->
+
+
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/home-sidebar.js"></script>
   </body>
 </html>
