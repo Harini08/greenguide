@@ -99,9 +99,9 @@ html, body {
   color: #2a6496;
 }
 
-.nav>li>a {
-  padding: 0 0;
-}
+/*  .nav>li>a {         'Makes the product page go small when uncommented. Otherwise the browse page sidebar list is too big'
+     padding: 0 0;
+}*/
 
 .navmenu, .navbar-offcanvas {
   width: 250px;
