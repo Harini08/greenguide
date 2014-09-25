@@ -120,10 +120,9 @@ html, body {
 }
 
 .footer {
-  position: absolute;
+  /*position: absolute;*/
   height: 30px;
   bottom: 0;
   background-color: grey;
   width: 100%;
-  text-align: center;
 }
